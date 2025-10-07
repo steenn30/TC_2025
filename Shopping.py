@@ -43,6 +43,7 @@ def update_quantity_in_db(item_id, new_quantity):
         conn.commit()
         cur.close()
         conn.close()
+        #
     except Exception as e:
         print("Error updating item quantity:", e)
 def main():

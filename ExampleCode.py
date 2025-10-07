@@ -3,3 +3,5 @@ it = iter(nums)
 print(type(it))
 print(next(it)) #1
 print(next(it)) #2
+
+#
